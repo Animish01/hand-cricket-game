@@ -3248,11 +3248,11 @@ var app = (function () {
     			t7 = space();
     			if (if_block4) if_block4.c();
     			attr_dev(h2, "class", "svelte-1macs8q");
-    			add_location(h2, file, 15, 1, 424);
+    			add_location(h2, file, 15, 1, 439);
     			attr_dev(h1, "class", "svelte-1macs8q");
-    			add_location(h1, file, 16, 1, 445);
+    			add_location(h1, file, 16, 1, 461);
     			attr_dev(main, "class", "svelte-1macs8q");
-    			add_location(main, file, 14, 0, 416);
+    			add_location(main, file, 14, 0, 430);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
