@@ -50,11 +50,11 @@
     {#if win == 1}
         <h2>You have won the toss!</h2>
         <h2>What do you choose to do?</h2>
-        <button on:click={chooseBat}>I'm gonna bat!</button>
-        <button on:click={chooseBowl}>I'm gonna bowl!</button>
+        <button class="decision" on:click={chooseBat}>I'm gonna bat!</button>
+        <button class="decision" on:click={chooseBowl}>I'm gonna bowl!</button>
     {:else if win == 0}
         <h2>You have lost the toss.</h2>
-        <button on:click={loseToss}>Reveal Computer's Choice</button>
+        <button class="choice" on:click={loseToss}>Reveal Computer's Choice</button>
     {/if}
 
     {#if myChoice == 0}
@@ -88,4 +88,14 @@
     .try {
 		background-color: greenyellow;
 	}
+
+    .choice {
+        background-color: royalblue;
+        color: white;
+    }
+
+    .decision {
+        background-color: tomato;
+        color: white;
+    }
 </style>
