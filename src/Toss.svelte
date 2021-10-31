@@ -96,6 +96,6 @@
 
     .decision {
         background-color: tomato;
-        color: white;
+        color: black;
     }
 </style>
